@@ -1,0 +1,242 @@
+.divContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.divContainerTopRight {
+  width: calc(100% * 5 / 6);
+  height: 3.5rem;
+  background-color: white;
+  border-bottom: 1px solid #d1d5db;
+  font-size: 1.125rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.divContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem 0 1.5rem;
+  gap: 0.75rem;
+}
+
+.divContentRight {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.divInfoLogin {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.h6 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.account {
+  color: rgba(107, 114, 128, 1);
+  line-height: 1.25rem;
+  margin: 0;
+}
+
+.divAvatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: url("https://i.pravatar.cc/320?img=65") center center / cover
+    no-repeat rgb(238, 238, 238);
+}
+
+.logoutBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: rgba(255, 255, 255, 1);
+  background-color: #ef4444;
+  border-radius: 0.375rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.logoutBtn:hover {
+  cursor: pointer;
+  background-color: #ef4444;
+  opacity: 0.8;
+}
+
+.divContainerLeft {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: calc(100% * 1 / 6);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.divLogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: #0e1f33;
+  color: rgba(255, 255, 255, 1);
+}
+
+.imgLogo {
+  display: block;
+  width: 75%;
+  height: auto;
+}
+
+.divSidebar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebarParent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  background-color: #0e1f33;
+}
+
+.sidebarParentItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.sidebarParentItemActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #1d4ed8;
+}
+
+.sidebarChild {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  background-color: #152943;
+}
+
+.list {
+  list-style: none;
+  width: 100%;
+}
+
+.sidebarChildItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background-color: #152943;
+}
+
+.sidebarChildItemActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background-color: #1d4ed8;
+}
+
+.sidebarParentRest {
+  width: calc(100% * 1 / 6);
+}
+
+.divContainerRight {
+  display: flex;
+  width: calc(100% * 5 / 6);
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 3.5rem;
+  right: 0;
+}
+
+.infoContainer {
+  width: 25%;
+  height: 100vh;
+  overflow: scroll;
+  background-color: rgba(255, 255, 255, 1);
+  border-right: 1px solid #d1d5db;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.infoFullContainer {
+  width: 75%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 1);
+  border-right: 1px solid #d1d5db;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.itemMailContainer {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.itemMailContainerActive {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+.itemMailContainerActive>div {
+  background-color: #1d4ed8;
+}

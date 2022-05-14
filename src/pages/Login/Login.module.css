@@ -1,0 +1,45 @@
+.divContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    min-height: inherit;
+    margin: 0 auto;
+}
+
+.divContent {
+    width: 30rem;
+    height: auto;
+    background-color: white;
+    padding: 4rem 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.divGrid {
+    display: grid;
+}
+
+.divColumn {
+    width: 100%;
+}
+
+.divFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: .75rem;
+}
+
+.divFlexImg {
+    width: 100%;
+    height: auto;
+    padding: 0 6rem;
+}
+
+.divFlexContent {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}

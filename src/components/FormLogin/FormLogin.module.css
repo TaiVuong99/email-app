@@ -1,0 +1,44 @@
+.divGrid{
+    display: grid;
+    gap: 1rem;
+}
+
+.divColumn {
+    grid-column: span 1 / span 1;
+}
+
+.label{
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: .5rem;
+}
+
+.input {
+    width: 100%;
+    padding: .625rem .75rem;
+    border: 1px solid #D1D5DB;
+    border-radius: .375rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: .5rem 1rem;
+    gap: .5rem;
+    color: white;
+    background-color: #152943;
+    border-radius: .5rem;
+}
+
+.button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.notice {
+    margin: 0;
+    color: #EF4444;
+}
